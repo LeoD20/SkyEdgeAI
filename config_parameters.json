@@ -1,0 +1,42 @@
+{
+    "UAV Parameters": {
+        "Speed [m/s]": 5,
+        "Altitude [m]": 50,
+        "Radius [m]": 75,
+        "Mass [kg]": 4,
+        "Battery Capacity [kJ]": 300,
+        "Computational Frequency [GHz]": 4.8,
+        "Power Usage [W]": 5,
+        "Processing Storage [Gb]": 16,
+        "Queue Storage [Tb]": 8,
+        "Processing Units [Unit]": 2
+    },
+    "Local Parameters": {
+        "Battery Capacity [kJ]": 40,
+        "Computational Frequency [GHz]": 1.5,
+        "Power Usage [W]": 2,
+        "Processing Storage [Mb]": 800,
+        "Local Queue Storage [Gb]": 8,
+        "Offloader Queue Storage [Gb]": 8
+    },
+    "Task Parameters": {
+        "Deadline [s]": 3,
+        "Latency Sensitive Deadline [s]": 1.2,
+        "Latency Threshold [s]": 1.5,
+        "Energy Threshold [J]": 2.5
+    },
+    "Channel Parameters": {
+        "Total Bandwidth [MHz]": 400,
+        "Noise Power Density [10log(mW/Hz)]": -143,
+        "Carrier Frequency [GHz]": 28,
+        "Rician K-Factor [dB]": 10,
+        "Transmission Power [W]": 1
+    },
+    "Simulation Parameters": {
+        "Number of Users": 10,
+        "Total Time [s]": 120,
+        "Step Size [ms]": 1,
+        "Area Size [m]": 300,
+        "Generation probability [Task/s]": 1
+    }
+}
